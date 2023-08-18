@@ -2,37 +2,87 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
+  @media only screen and (max-width: 850px) {
+    width: 100%;
+    font-size: 18px;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+.App-heading {
+  color: orange;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-top: 2%;
+  margin: 0 auto;
+  font-family: "Lucida Console", "Courier New", monospace;
+  animation: typing 3.5s steps(40, end);
+
+  @media only screen and (max-width: 350px) {
+    width: 100%;
+    font-size: 15px;
+    white-space: normal;
+  }
 }
 
-@keyframes App-logo-spin {
+@keyframes typing {
   from {
-    transform: rotate(0deg);
+    width: 0%;
   }
   to {
-    transform: rotate(360deg);
+    width: 100%;
   }
+}
+
+.EditorContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 350px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.editor::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.editor {
+  width: 540px;
+  background-color: #aaaaaa;
+  margin: 20px;
+}
+
+@media screen and (max-width: 350px) {
+  .editor {
+    width: 100%;
+  }
+}
+
+.editorTitle {
+  font-size: 25px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #000;
+  float: center;
+  padding: 2%;
+}
+
+.spacer {
+  height: 50px;
+}
+
+.spacer2 {
+  height: 10px;
 }
