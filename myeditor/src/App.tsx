@@ -42,7 +42,7 @@ function App() {
         <div className="spacer" />
         <div className="EditorContainer">
           <div className="editor">
-            <p className="editorTitle">HTML EDITOR</p>
+            <h3 className="editorTitle">HTML EDITOR</h3>
             <Editor
               value={htmlCode}
               onValueChange={handleHtmlChange}
@@ -63,7 +63,7 @@ function App() {
             />
           </div>
           <div className="editor">
-            <p className="editorTitle">CSS EDITOR</p>
+            <h3 className="editorTitle">CSS EDITOR</h3>
             <Editor
               value={cssCode}
               onValueChange={handleCssChange}
@@ -82,6 +82,8 @@ function App() {
             />
           </div>
         </div>
+        <br />
+        <h3>Preview</h3>
         <iframe
           title="Preview"
           className="preview-iframe"
