@@ -17,3 +17,6 @@ This project has been developed using a powerful tech stack to provide you with 
 - Sanitized Preview: The 'DOMPurify' library from npm is employed to safely render sanitized code within the preview section.
 
 I am excited to provide you with an exceptional coding tool that simplifies the process while maintaining a high level of security and functionality. Whether you're working from a desktop or a mobile device, my application adapts to your needs. Happy coding!
+
+Set Up:
+If you do not have node, you can download it from here https://nodejs.org/en. Now to run code just type "npm start" on terminal.
