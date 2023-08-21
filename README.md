@@ -1,5 +1,11 @@
 Code Editor with HTML and CSS Preview
 
+
+
+https://github.com/dhruvi1930/editor/assets/112989118/ed1926d8-24f1-48f1-9de1-74cf6500c6b1
+
+
+
 Welcome to my feature-rich code editor application! This platform offers you the convenience of seamlessly adding basic HTML and CSS code while also providing a real-time preview of your work. I've integrated various safeguards to ensure a secure coding environment. 
 
 Key Features:
